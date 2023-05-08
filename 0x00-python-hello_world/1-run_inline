@@ -1,7 +1,5 @@
 #!/bin/bash
 
-echo "$PYCODE" > "$1_code"
 
-python3 "$1_code"
+python3 -c $PYCODE
 
-rm "$1_code"
