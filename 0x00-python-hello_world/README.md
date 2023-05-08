@@ -1,2 +1,2 @@
 # 0x00. Python - Hello, World
-1-run_inline
+3-print_number.py
