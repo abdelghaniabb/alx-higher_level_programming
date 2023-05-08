@@ -4,4 +4,4 @@ echo $PYCODE >> 1_code.py
 
 python3 1_code.py
 
-rm 1_code.py
+sudo rm 1_code.py
