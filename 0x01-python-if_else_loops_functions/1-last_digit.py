@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 import random
 number = random.randint(-10000, 10000)
-n_str = repr(number)
+n_str = repr(abs(number))
 n = int(n_str[-1])
 if number < 0:
     n = - n
