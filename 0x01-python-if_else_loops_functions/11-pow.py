@@ -6,7 +6,6 @@ def pow(a, b):
     if b < 0:
         for i in range(1, abs(b) + 1):
             p = p * 1 / a
-        p = "{:.15f}".format(p)
         return p
     for i in range(1, b + 1):
         p = p * a
