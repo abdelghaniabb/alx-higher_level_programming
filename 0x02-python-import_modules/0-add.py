@@ -3,4 +3,4 @@ import add_0 as s
 a = 1
 b = 2
 r = s.add(a, b)
-print("{} + {} = {}".format(a, b, r))
+print("{:d} + {:d} = {:d}".format(a, b, r))
