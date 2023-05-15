@@ -1,10 +1,4 @@
 #!/usr/bin/python3
-def check(i, tuple_=None):
-    if tuple_ is None or len(tuple_) < i + 1:
-        a = 0
-    else:
-        a = tuple_[i]
-    return a
 def add_tuple(tuple_a=(), tuple_b=()):
     if tuple_a is None or len(tuple_a) < 1:
         a1 = 0
