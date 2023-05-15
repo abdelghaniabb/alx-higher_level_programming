@@ -1,0 +1,9 @@
+#!/bin/bash
+pyfile="$PYFILE"
+pyfilec="${pyfile}c"
+
+# Compile the Python file and save the output with the ".pyc" extension
+python -m py_compile "$pyfile"
+
+# Rename the compiled file to the desired name
+mv "${pyfile}c" "$pyfilec"
