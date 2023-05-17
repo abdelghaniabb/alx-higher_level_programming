@@ -1,7 +1,5 @@
 #!/usr/bin/python3
 def uniq_add(my_list=[]):
-    if my_list is None:
-        return 0
     new = sorted(my_list)
     s = 0
     for i in range(0, len(new) - 1):
