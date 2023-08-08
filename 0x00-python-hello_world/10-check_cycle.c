@@ -8,17 +8,27 @@
  */
 int check_cycle(listint_t *list)
 {
-	listint_t *current;
+	listint_t *current, *test;
+	int count, count_test;
 
 	if (list == NULL)
 		return (0);
 
 	current = list->next;
+	count = 1;
 	while (current != NULL)
 	{
-		if (current == list)
-			return (1);
+		test = list;
+		count_test = 0;
+		while (count_test != count - 1)
+		{
+			if (current == test)
+				return (1);
+			test = test->next;
+			count_test++;
+		}
 		current = current->next;
+		count++;
 	}
 	return (0);
 }
