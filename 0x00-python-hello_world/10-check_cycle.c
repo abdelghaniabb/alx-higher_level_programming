@@ -20,7 +20,7 @@ int check_cycle(listint_t *list)
 	{
 		test = list;
 		count_test = 0;
-		while (count_test != count - 1)
+		while (count_test < count - 1)
 		{
 			if (current == test || current == test->next)
 				return (1);
