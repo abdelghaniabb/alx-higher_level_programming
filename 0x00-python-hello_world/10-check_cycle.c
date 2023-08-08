@@ -22,10 +22,10 @@ int check_cycle(listint_t *list)
 		count_test = 0;
 		while (count_test != count - 1)
 		{
-			if (current == test)
+			if (current == test || current == test->next)
 				return (1);
-			test = test->next;
-			count_test++;
+			test = test->next->next;
+			count_test = count_test + 2;
 		}
 		current = current->next;
 		count++;
