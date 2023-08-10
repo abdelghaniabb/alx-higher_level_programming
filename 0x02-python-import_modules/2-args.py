@@ -4,7 +4,7 @@ if __name__ == "__main__":
     argv = sys.argv
     if len(argv) == 1:
         print("0 agruments.")
-    elif len(argv) > 1:
+    else:
         if len(argv) == 2:
             print("1 argument:")
         else:
