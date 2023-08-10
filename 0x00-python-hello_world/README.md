@@ -1,5 +1,6 @@
 # 0x00. Python - Hello, World
 ## 10-check_cycle.c, lists.h
+done but with 2 efficiency fails
 ## 100-write.py 
 Write a Python script that prints exactly and that piece of art is useful - Dora Korpar, 2015-10-19, followed by a new line.
 
@@ -29,3 +30,5 @@ Write the Python function def magic_calculation(a, b): that does exactly the sam
              10 BINARY_ADD
              11 RETURN_VALUE
 ~~~
+
+- Disassembler for Python bytecode https://docs.python.org/3.4/library/dis.html
