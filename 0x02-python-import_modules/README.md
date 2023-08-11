@@ -1,6 +1,6 @@
 # 0x02. Python - import & modules
-## 2-args.py
 ## 4-hidden_discovery.py
+- import hidden_4 does not work
 ## 100-my_calculator.py
 - mul * doesn't work
 ## 101-easy_print.py
