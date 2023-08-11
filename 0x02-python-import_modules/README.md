@@ -4,5 +4,6 @@
 ## 100-my_calculator.py
 - mul * doesn't work
 ## 101-easy_print.py
+- done
 ## 102-magic_calculation.py
 ## 103-fast_alphabet.py
