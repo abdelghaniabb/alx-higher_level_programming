@@ -4,4 +4,6 @@
 done
 ## 11-delete_at.py
 done
+## 13-is_palindrome.c, lists.h
+
 
