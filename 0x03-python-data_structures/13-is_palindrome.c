@@ -31,8 +31,8 @@ int is_palindrome(listint_t **head)
 	}
 	else
 	{
-		up = number / 2;
-		down = number / 2 - 2;
+		up = number / 2 + 1;
+		down = number / 2 - 1;
 	}
 
 	while (down >= 0)
