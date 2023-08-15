@@ -1,4 +1,3 @@
 #!/usr/bin/python3
-import string
 if __name__ == "__main__":
-    print("{}".format(string.ascii_uppercase))
+    print("{:s}".format(__import__('string').ascii_uppercase))
