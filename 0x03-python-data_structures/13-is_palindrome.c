@@ -9,7 +9,7 @@
  */
 int is_palindrome(listint_t **head)
 {
-	int tmp[25];
+	int tmp[2004];
 	listint_t *current;
 	int up = 0, down = 0, number = 0;
 
