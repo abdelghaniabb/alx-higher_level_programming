@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-import string
-print("{:s}".format(string.ascii_uppercase))
+print(chr(65), end='')
+print(*map(chr, range(66, 91)), sep='', end='\n')
