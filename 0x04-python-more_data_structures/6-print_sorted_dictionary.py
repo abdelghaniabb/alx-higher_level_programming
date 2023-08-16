@@ -1,4 +1,8 @@
 #!/usr/bon/python3
 def print_sorted_dictionary(a_dictionary):
-    for c in dict(sorted(a_dictionary.items())):
-        print("{:s}: {}".format(c, a_dictionary[c]))
+    new = dict()
+    for key in a_dictionary:
+        new[key] = a_dictionary[key]
+
+    for key in dict(sorted(new.items())):
+        print("{:s}: {}".format(key, new[key]))
