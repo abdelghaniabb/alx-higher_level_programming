@@ -1,4 +1,4 @@
-#!/usr/bon/python3
+#!/usr/bin/python3
 def print_sorted_dictionary(a_dictionary):
     new = dict()
     for key in a_dictionary:
