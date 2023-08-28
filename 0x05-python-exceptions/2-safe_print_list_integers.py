@@ -2,16 +2,15 @@
 def safe_print_list_integers(my_list=[], x=0):
     """didn´t work"""
     count = 0
-    index = 0
-    while index < x:
+    i = 0
+    while i < x:
         try:
-            value = int(my_list[index])
+            value = int(my_list[i])
         except Exception:
-            index = index + 1
+            i = i + 1
             continue
         count = count + 1
-        print("{:d}".format(my_list[index]), end="")
-        index = index + 1
+        print("{:d}".format(my_list[i]), end="")
+        i = i + 1
     print("")
     return count
-            
