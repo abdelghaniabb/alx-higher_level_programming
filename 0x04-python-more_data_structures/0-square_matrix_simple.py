@@ -7,3 +7,8 @@ def square_matrix_simple(matrix=[]):
             new_line.append(i * i)
         new_matrix.append(new_line)
     return new_matrix
+    """new = matrix.copy()
+    print("fgg ", new)
+    for i in range(len(matrix)):
+        new = list(map(lambda x: (list(map(lambda y: (y**2), x), matrix[i]))))
+    return new"""
