@@ -10,6 +10,9 @@ def list_division(my_list1, my_list2, list_length):
         except Exception:
             try:
                 v1 = float(my_list1[index])
+                l1 = type(my_list1[index]) in [float, int]
+                if not (l1 and type(my_list2[index]) in [float, int]):
+                    v2 = float("my_list2[index]")
                 v2 = float(my_list2[index])
                 if v2 == 0:
                     print("division by 0")
@@ -18,8 +21,7 @@ def list_division(my_list1, my_list2, list_length):
                 if len(my_list1) <= index + 1 or len(my_list2) <= index + 1:
                     print("out of range")
                 else:
-                    if not(type(my_list1[index]) in [float, int] and type(my_list2[index]) in [float, int]):
-                        print("wrong type")
+                    print("wrong type")
                 index = index + 1
             finally:
                 result = 0
