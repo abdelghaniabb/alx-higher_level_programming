@@ -11,6 +11,6 @@ def safe_print_list_integers(my_list=[], x=0):
         except Exception:
             i = i + 1
             continue
-    print("{:d}".format(my_list[i]), end="")
+    print("{:d}".format(my_list[i - 1]), end="")
     print("")
     return count
