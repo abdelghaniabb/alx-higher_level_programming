@@ -19,7 +19,7 @@ def list_division(my_list1, my_list2, list_length):
                 if v2 == 0:
                     print("division by 0")
             except Exception:
-                if t == True:
+                if t is True:
                     print("wrong type")
                 elif len(my_list1) <= index + 1 or len(my_list2) <= index + 1:
                     print("out of range")
