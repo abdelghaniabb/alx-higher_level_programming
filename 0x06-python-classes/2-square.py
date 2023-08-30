@@ -23,11 +23,8 @@ class Square:
                 ValueError: Size < 0
         """
 
-        try:
-            if not(type(size) == int and int(size) >= 0):
-                self.__size = int("size")
-            self.__size = size
-        except Exception:
-            if int(size) < 0:
-                raise ValueError("size must be >= 0")
+        if not(type(size) == int):
             raise TypeError("size must be an integer")
+        if int(size) < 0:
+            raise ValueError("size must be >= 0")
+        self.__size = size
