@@ -37,7 +37,7 @@ class Node:
             Returns:
                 None
         """
-        if type(value) != int:
+        if not isinstance(value, int):
             raise TypeError("data must be an integer")
         self.__data = value
 
@@ -59,7 +59,7 @@ class Node:
             Returns:
                     None
         """
-        if value is not None and type(value) != Node:
+        if value is not None and not isinstance(value, Node):
             raise TypeError("next_node must be a Node object")
         self.__next_node = value
 
