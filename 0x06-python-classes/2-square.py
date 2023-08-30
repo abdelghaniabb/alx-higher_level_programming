@@ -16,7 +16,7 @@ class Square:
         Initializes a new Square instance.
 
         Args:
-            size (int): The size of the square.
+            size: The size of the square.
 
         Raises:
                 TypeError: size is not integer
