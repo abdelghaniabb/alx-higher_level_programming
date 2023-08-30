@@ -5,18 +5,15 @@
 
 class Square:
     """
-    This class defines a square by its size.
+        This class defines a square by its size.
 
-    Attributes:
-        __size (int): The size of the square (private attribute).
+        Attributes:
+            __size (int): The size of the square (private attribute).
     """
-
     def __init__(self, size=0):
         """Constructor
-
             Args:
                 size: The size of the square.
-
             Raises:
                     TypeError: size is not integer
                     ValueError: Size < 0
