@@ -4,4 +4,3 @@ class Square:
     """
     This is an empty class to demonstrate docstring usage.
     """
-    pass
