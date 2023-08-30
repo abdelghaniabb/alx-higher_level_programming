@@ -4,11 +4,7 @@
 
 
 class Square:
-    """
-        This class defines a square by its size.
-        Attributes:
-            __size (int): The size of the square (private attribute).
-    """
+    """ square class """
     def __init__(self, size=0):
         """Constructor
             Args:
