@@ -21,6 +21,7 @@ class Square:
         Returns:
             None
         """
+
         try:
             if not(type(size) == int and int(size) >= 0):
                 self.__size = int("size")
