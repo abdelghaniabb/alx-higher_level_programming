@@ -1,6 +1,7 @@
 # Project: 0x06. Python - Classes and Objects
 
 - 6-square.py
+- 100-singly_linked_list.py
 ## Resources
 - [python for everybody](https://www.py4e.com/lessons/Objects)
 #### Read or watch:
