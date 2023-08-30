@@ -15,3 +15,14 @@ my_square_3 = Square(3, (3, 0))
 my_square_3.my_print()
 
 print("--")
+
+
+
+
+try:
+    my_square = Square(3, (0,"Position"))
+    print(my_square.size)
+    print(my_square.area())
+    print(my_square.position)
+except Exception as e:
+    print(e)
