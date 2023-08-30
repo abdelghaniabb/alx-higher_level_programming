@@ -4,7 +4,7 @@
 
 class Square:
     """
-        This class defines a square by its size.
+        This class defines a square by its size and calculate its area.
         Attributes:
             __size (int): The size of the square (private attribute).
     """
@@ -28,4 +28,9 @@ class Square:
         self.__size = size
 
     def area(self):
+        """
+            Calculates and returns the area of the square.
+            Returns:
+                int: The area of the square.
+        """
         return self.__size ** 2
