@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""1-square.py"""
+
+
 class Square:
     """
     This class defines a square by its size.
