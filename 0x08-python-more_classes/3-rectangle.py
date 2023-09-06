@@ -261,5 +261,5 @@ class Rectangle:
     def __str__(self):
         if self.width == 0 or self.height == 0:
             return ""
-        rectangle_str = "#" * self.width + "\n"
-        return rectangle_str * (self.height - 1) + "#" * self.width
+        rectangle_str = "#" * self.__width + "\n"
+        return rectangle_str * (self.__height - 1) + "#" * self.__width
