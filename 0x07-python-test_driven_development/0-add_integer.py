@@ -11,8 +11,8 @@ def add_integer(a, b=98):
         Raises:
             TypeError: the numbers must be integers
     """
-    if not(isinstance(a, int) or isinstance(a, float)):
+    if not (isinstance(a, int) or isinstance(a, float)):
         raise TypeError("a must be an intger")
-    if not(isinstance(b, int) or isinstance(b, float)):
+    if not (isinstance(b, int) or isinstance(b, float)):
         raise TypeError("b must be an integer")
     return int(a) + int(b)
