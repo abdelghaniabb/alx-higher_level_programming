@@ -4,7 +4,8 @@
 
 def text_indentation(text):
     """
-        prints a text with 2 new lines after each of these characters: ., ? and :
+        prints a text with 2 new lines after each
+        of these characters: ., ? and :
         Args:
             text: string
         Raises:
@@ -17,9 +18,11 @@ def text_indentation(text):
     i = 0
     while i < len(text):
         if text[i] in ['.', '?', ':']:
+            print(text[i])
             print()
-            print()
-            while text[i + 1] == ' ':
+            i += 1
+            while text[i] == ' ':
                 i += 1
-        i += 1
-        print(text[i], end="")
+        if i < len(text):
+            print(text[i], end="")
+            i += 1
