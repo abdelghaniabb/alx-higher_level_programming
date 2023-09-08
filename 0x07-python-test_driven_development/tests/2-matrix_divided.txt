@@ -42,3 +42,15 @@ TypeError: matrix must be a matrix (list of lists) of integers/floats
 >>> matrix_divided([[2, 1],[1, 7]], 2222222.3)
 [[0.0, 0.0], [0.0, 0.0]]
 >>> 
+>>> matrix = [[2, 5, 4], [1, 2]]
+>>> matrix_divided(matrix, 3)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/home/me/Desktop/ALX/alx-higher_level_programming/0x07-python-test_driven_development/2-matrix_divided.py", line 17, in matrix_divided
+    raise TypeError("Each row of the matrix must have the same size")
+TypeError: Each row of the matrix must have the same size
+>>> matrix_divided()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: matrix_divided() missing 2 required positional arguments: 'matrix' and 'div'
+>>> 
