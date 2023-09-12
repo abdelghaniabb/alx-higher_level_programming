@@ -4,12 +4,12 @@
 
 import sys
 import json
+save_to_json_file = __import__('5-save_to_json_file').save_to_json_file
+load_from_json_file = __import__('6-load_from_json_file').load_from_json_file
 
 
 try:
-    with open("add_item.json", "r", encoding="utf-8") as infile:
-        my_list = json.loads(infile.read())
-    infile.close()
+    my_list = load_from_json_file("add_item.json")
 except Exception:
     my_list = []
 
@@ -17,5 +17,4 @@ except Exception:
 for i in range(1, len(sys.argv)):
     my_list.append(sys.argv[i])
 
-with open("add_item.json", "w", encoding="utf-8") as outfile:
-    outfile.write(json.dumps(my_list))
+save_to_json_file(my_list, "add_item.json")
