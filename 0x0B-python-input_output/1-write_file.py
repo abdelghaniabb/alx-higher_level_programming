@@ -9,7 +9,7 @@ def write_file(filename="", text=""):
             filename: the name of the file
             text: the text to add to the file
         Returns:
-            number of char that added to the fole
+            number of char that added to the file
     """
     with open(filename, "w", encoding="utf-8") as outfile:
         i = 0
