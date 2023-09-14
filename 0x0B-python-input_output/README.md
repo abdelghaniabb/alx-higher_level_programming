@@ -1,6 +1,8 @@
 # Project: 0x0B. Python - Input/Output
 - 8-class_to_json.py
 - 10-student.py
+- 11-student.py
+- 12-pascal_triangle.py
 
 ## Resources
 
