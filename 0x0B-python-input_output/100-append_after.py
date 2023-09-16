@@ -12,8 +12,8 @@ def append_after(filename="", search_atring="", new_string=""):
         infile.close()
 
     with open(filename, "w", encoding="utf-8") as outfile:
-        outfile.write(new_string)
         for line in text:
             outfile.write(line)
+            outfile.write("\n")
             if search_atring in line:
                 outfile.write(new_string)
