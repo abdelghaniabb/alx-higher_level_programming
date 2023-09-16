@@ -2,7 +2,6 @@
 - 8-class_to_json.py
 - 10-student.py
 - 11-student.py
-- 12-pascal_triangle.py
 
 ## Resources
 
