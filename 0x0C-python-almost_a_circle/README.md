@@ -2,7 +2,7 @@
 - 1. Base class
 - 3. Validate attributes
 - 12. Square update
-- 15. Dictionary to JSON string
+- 16. JSON string to file
 ## Resources
 
 #### Read or watch:
