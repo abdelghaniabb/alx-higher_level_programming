@@ -1,7 +1,6 @@
 #!/usr/bin/python3
+
 """Base"""
-
-
 import json
 
 
@@ -9,7 +8,8 @@ class Base():
     """
         This class will be the “base” of all other classes in this project.
         Attributes:
-            __nb_objects (int): A private class attribute to keep track of the number of instances created.
+            __nb_objects (int): A private class attribute to keep track
+                                of the number of instances created.
     """
     __nb_objects = 0
 
@@ -27,6 +27,7 @@ class Base():
             Base.__nb_objects += 1
             self.id = Base.__nb_objects
 
+    @staticmethod
     def to_json_string(list_dictionaries):
         """ returns the JSON string representation of list_dictionaries"""
         if list_dictionaries is None:
