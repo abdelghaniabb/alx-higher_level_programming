@@ -1,5 +1,8 @@
 # Project: 0x0C. Python - Almost a circle
-
+- 1. Base class
+- 3. Validate attributes
+- 12. Square update
+- 15. Dictionary to JSON string
 ## Resources
 
 #### Read or watch:
