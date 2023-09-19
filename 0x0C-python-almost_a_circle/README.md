@@ -1,8 +1,6 @@
 # Project: 0x0C. Python - Almost a circle
 - 1. Base class
 -
-- 16. JSON string to file
-- 19. File to instances
 ## Resources
 
 #### Read or watch:
