@@ -9,7 +9,8 @@ class Base():
     """
         This class will be the “base” of all other classes in this project.
         Attributes:
-            __nb_objects (int): A private class attribute to keep track of the number of instances created.
+            __nb_objects (int): A private class attribute to keep track
+                                of the number of instances created.
     """
     __nb_objects = 0
 
@@ -43,4 +44,3 @@ class Base():
         with open(filename, "w", encoding="utf-8") as outfile:
             outfile.write(cls.to_json_string(json_list))
     """
-
