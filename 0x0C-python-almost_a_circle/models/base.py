@@ -1,6 +1,7 @@
 #!/usr/bin/python3
+"""base.py"""
 
-"""Base"""
+
 import json
 
 
