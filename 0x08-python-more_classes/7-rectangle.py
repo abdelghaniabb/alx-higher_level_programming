@@ -90,8 +90,8 @@ class Rectangle:
     def __str__(self):
         if self.width == 0 or self.height == 0:
             return ""
-        rectangle_str = str(Rectangle.print_symbol) * self.__width + "\n"
-        return rectangle_str * (self.__height - 1) + str(Rectangle.print_symbol) * self.__width
+        rectangle_str = str(self.print_symbol) * self.__width + "\n"
+        return rectangle_str * (self.__height - 1) + str(self.print_symbol) * self.__width
 
     def __repr__(self):
         return "Rectangle({}, {})".format(self.width, self.height)
