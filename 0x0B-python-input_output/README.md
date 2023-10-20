@@ -1,5 +1,12 @@
 # Project: 0x0B. Python - Input/Output
+<<<<<<< HEAD
 - 7-add_item.py
+=======
+- 8-class_to_json.py
+- 10-student.py
+- 11-student.py
+
+>>>>>>> 2ee2cc18711a7e75adee4deedaaa3801264e10af
 ## Resources
 
 #### Read or watch:
