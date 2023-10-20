@@ -1,5 +1,5 @@
 # Project: 0x0B. Python - Input/Output
-
+- 7-add_item.py
 ## Resources
 
 #### Read or watch:
