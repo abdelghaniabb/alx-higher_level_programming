@@ -1,4 +1,7 @@
 # Project: 0x0D. SQL - Introduction
+- 100-move_to_utf8.sql
+- 101-avg_temperatures.sql
+- 101-avg_temperatures.sql
 
 ## ACID is a cool acronym!
 - Atomicity
