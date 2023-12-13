@@ -11,3 +11,7 @@
 ## 0x04-python-more_data_structures
 - 12-roman_to_int.py
 - 103-python.c
+
+
+# 0x0D. SQL - Introduction
+- 5-full_table.sql
