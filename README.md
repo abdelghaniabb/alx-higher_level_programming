@@ -15,4 +15,4 @@
 
 # 0x0D. SQL - Introduction
 - 5-full_table.sql
-- 14-average.sql
+- 15-groups.sql
