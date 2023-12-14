@@ -19,4 +19,5 @@
 - 100-move_to_utf8.sql
 
 ## 0x0E. SQL - More queries
--7-cities.sql
+- 7-cities.sql
+- 11-genre_id_all_shows.sql
