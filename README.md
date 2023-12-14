@@ -13,7 +13,10 @@
 - 103-python.c
 
 
-# 0x0D. SQL - Introduction
+## 0x0D. SQL - Introduction
 - 5-full_table.sql
 - 15-groups.sql
 - 100-move_to_utf8.sql
+
+## 0x0E. SQL - More queries
+-7-cities.sql
