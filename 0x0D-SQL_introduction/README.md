@@ -23,7 +23,6 @@
     - a table containing only one object representation
     - data are organized by tables, records and columns
     - a database
-
     - data are organized by tables and indexes
     - a table containing multiple object representation
     - married databases
