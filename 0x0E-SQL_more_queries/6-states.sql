@@ -5,5 +5,5 @@ CREATE TABLE IF NOT EXISTS states(
     id INT NOT NULL AUTO_INCREMENT,
     name VARCHAR(256),
     PRIMARY KEY (id),
-    UNIQUE KEY (id)
+    UNIQUE KEY id_unique (id)
 );
