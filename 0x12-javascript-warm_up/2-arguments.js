@@ -1,6 +1,7 @@
 #!/usr/bin/node
 
-const process = require('process');
+const process = require('node:process');
+
 const len = process.argv.length;
 
 if (len <= 2) {
