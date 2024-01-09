@@ -1,6 +1,6 @@
 #!/usr/bin/node
 
-const process = require('node:process');
+const process = require('process');
 
 const len = process.argv.length;
 
