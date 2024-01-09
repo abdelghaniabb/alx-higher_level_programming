@@ -1,6 +1,17 @@
 # Project: 0x12. JavaScript - Warm up
 
 ## Resources
+- **Install Node 14**
+~~~bash
+$ curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+$ sudo apt-get install -y nodejs
+~~~
+- **Install semi-standard**
+[Documentation](https://intranet.alxswe.com/rltoken/35q5Pc6A6KWPyd3kGeRQFg)
+~~~bash
+$ sudo npm install semistandard --global
+~~~
+
 
 #### Read or watch:
 
