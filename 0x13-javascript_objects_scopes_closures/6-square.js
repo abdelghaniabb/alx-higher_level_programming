@@ -8,14 +8,14 @@ module.exports = class Square extends s5 {
     this.size = size;
   }
 
-  charPrint (str) {
-    if (!str) {
-      str = 'X';
+  charPrint (c) {
+    if (!c) {
+      c = 'X';
     }
     for (let i = 0; i < this.size; i++) {
       let row = '';
       for (let j = 0; j < this.size; j++) {
-        row += str;
+        row += c;
       }
       console.log(row);
     }
