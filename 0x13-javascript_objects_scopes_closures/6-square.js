@@ -20,4 +20,8 @@ module.exports = class Square extends s5 {
       console.log(row);
     }
   }
+
+  double () {
+    this.size = this.size * 2;
+  }
 };
