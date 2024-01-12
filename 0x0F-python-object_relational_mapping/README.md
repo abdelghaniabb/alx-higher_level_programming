@@ -1,6 +1,8 @@
 # Project: 0x0F. Python - Object-relational mapping
 
 ## Resources
+
+- 2-my_filter_states.py
 ### More Info
 #### Install and activate venv
 To create a Python Virtual Environment, allowing you to install specific dependencies for this python project, we will install venv:
