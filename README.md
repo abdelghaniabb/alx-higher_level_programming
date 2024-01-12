@@ -11,3 +11,19 @@
 ## 0x04-python-more_data_structures
 - 12-roman_to_int.py
 - 103-python.c
+
+
+## 0x0D. SQL - Introduction
+- 5-full_table.sql
+- 15-groups.sql
+- 100-move_to_utf8.sql
+
+## 0x0E. SQL - More queries
+- 7-cities.sql
+- 11-genre_id_all_shows.sql
+- 12-no_genre.sql
+- 13-count_shows_by_genre.sql
+- 14-my_genres.sql
+- 15-comedy_only.sql
+- 16-shows_by_genre.sql
+

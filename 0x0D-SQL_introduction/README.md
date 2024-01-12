@@ -1,26 +1,33 @@
-# Project: 0x0D. SQL - Introduction
-- 100-move_to_utf8.sql
-- 101-avg_temperatures.sql
-- 102-top_city.sql
 
-## ACID is a cool acronym!
-- Atomicity
-- Consistency
-- Isolation
-- Durability
-## CRUD is another cool one
-- Create some data;
-- Read some data;
-- Update some data;
-- Destroy some data.
-## install
-~~~
-sudo apt install mysql-server
-sudo systemctl start mysql.service
-sudo mysql
-ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'high';
-exit
-~~~bash
+# Project: 0x0D. SQL - Introduction
+- A solid database is expected to be **acid**, which means it guarantees:
+    - Atomicity: transactions are atomic, which means if a transaction fails, the result will be like it never happened.
+    - Consistency: you can define rules for your data, and expect that the data abides by the rules, or else the transaction fails.
+    - Isolation: run two operations at the same time, and you can expect that the result is as though they were ran one after the other. That’s not the case with the JSON file storage you built: if 2 insert operations are done at the same time, the later one will fetch an outdated collection of users because the earlier one is not finished yet, and therefore overwrite the file without the change that the earlier operation made, totally ignoring that it ever happened.
+    - Durability: unplug your server at any time, boot it back up, and it didn’t lose any data.
+
+- ACID is a cool acronym! CRUD is another cool one
+
+    - Create some data;
+    - Read some data;
+    - Update some data;
+    - Destroy some data.
+
+- Acronyms
+    - DDL Data Definition Language
+    - SQL Structured Query Language
+    - DML Data Manipulation Language
+
+- What is a relational database? (please select all correct answers)
+    - a collection of data
+    - a table containing only one object representation
+    - data are organized by tables, records and columns
+    - a database
+    - data are organized by tables and indexes
+    - a table containing multiple object representation
+    - married databases
+
+
 
 ## Resources
 
@@ -72,3 +79,8 @@ exit
 | 14. Average | [14-average.sql](./14-average.sql) |
 | 15. Number by score | [15-groups.sql](./15-groups.sql) |
 | 16. Say my name | [16-no_link.sql](./16-no_link.sql) |
+| 17. Go to UTF8 | [100-move_to_utf8.sql](./100-move_to_utf8.sql) |
+| 18. Temperatures #0 | [101-avg_temperatures.sql](./101-avg_temperatures.sql) |
+| 19. Temperatures #1 | [102-top_city.sql](./102-top_city.sql) |
+| 20. Temperatures #2 | [103-max_state.sql](./103-max_state.sql) |
+
