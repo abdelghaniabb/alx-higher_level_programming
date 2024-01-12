@@ -23,7 +23,7 @@ except Exception as e:
 
 cursor = db_connection.cursor()
 c = sys.argv[4]
-cmd = "SELECT * FROM states WHERE name = '{}'ORDER BY id ASC".format(c)
+cmd = "SELECT * FROM states WHERE name = '{}' ORDER BY id ASC".format(c)
 cursor.execute(cmd)
 data = cursor.fetchall()
 
