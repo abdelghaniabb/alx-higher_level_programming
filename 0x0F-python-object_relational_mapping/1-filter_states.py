@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""lists all states from databases hbtn_0e_0_usa"""
+"""lists all states with a name starting with N (upper N) from the database hbtn_0e_0_usa"""
 
 
 import MySQLdb
@@ -24,7 +24,8 @@ cursor.execute("SELECT * FROM states ORDER BY id ASC")
 data = cursor.fetchall()
 
 for state in data:
-    print(state)
+    if state[1].startswith('N'):
+        print(state)
 
 cursor.close()
 db_connection.close()
