@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
-     lists all cities from the database hbtn_0e_4_usa
+    takes in the name of a state as an argument and lists
+    all cities of that state, using the database hbtn_0e_4_usa
 """
 
 
@@ -21,13 +22,21 @@ except Exception as e:
     exit()
 
 cursor = db_connection.cursor()
-cmd = """SELECT cities.id, cities.name, states.name FROM cities, states
-        WHERE cities.state_id = states.id ORDER BY cities.id;"""
-cursor.execute(cmd)
+c = sys.argv[4]
+
+# Use parameterized query to avoid SQL injection
+cmd = """SELECT cities.name FROM states, cities
+        WHERE cities.state_id = states.id AND states.name = %s
+        ORDER BY cities.id;"""
+cursor.execute(cmd, (c, ))
+
 data = cursor.fetchall()
 
+arry = list()
 for state in data:
-    print(state)
+    arry.append(state[0])
+
+print(', '.join(arry))
 
 cursor.close()
 db_connection.close()
