@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """
     takes in an argument and displays all values in the states table of
     hbtn_0e_0_usa where name matches the argument.
@@ -24,6 +24,7 @@ except Exception as e:
 cursor = db_connection.cursor()
 c = sys.argv[4]
 cmd = "SELECT * FROM states WHERE name = '{}' ORDER BY id ASC".format(c)
+print(cmd)
 cursor.execute(cmd)
 data = cursor.fetchall()
 
