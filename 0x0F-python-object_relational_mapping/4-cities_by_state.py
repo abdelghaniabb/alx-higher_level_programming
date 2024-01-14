@@ -22,8 +22,8 @@ except Exception as e:
     exit()
 
 cursor = db_connection.cursor()
-c = sys.argv[4]
-cmd = "SELECT * FROM states WHERE name = '{}' ORDER BY id ASC".format(c)
+cmd = """SELECT cities.id, cities.name, states.name FROM cities, states
+        WHERE cities.state_id = states.id ORDER BY cities.id;"""
 cursor.execute(cmd)
 data = cursor.fetchall()
 
